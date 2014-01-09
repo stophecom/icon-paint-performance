@@ -6,13 +6,13 @@ Tested the paint performance while scrolling through 10`000 Icons.
 ![Setup](img/results/test-setup.png)
 
 #### Versions
-- SVG Inline (`<svg>`
-- Icon Font (SVG, Woff, TTF)
-- SVG Background (`background-image: url('path/to/icon.svg')`)
-- SVG Background Data (`background-image: url('data:image/svg+xml;...')`)
-- PNG Background (`background-image: url('path/to/icon.png');`)
-- PNG Background Data (`background-image: url('data:image/png;...')`)
-- WebP Background (`background-image: url('path/to/icon.webp');`)
+- SVG Inline `<svg>` (used [iconmelon](http://iconmelon.com/))
+- Icon Font (SVG, Woff, TTF - used [fontcustom](http://fontcustom.com/))
+- SVG Background `background-image: url('path/to/icon.svg')`
+- SVG Background Data `background-image: url('data:image/svg+xml;...')`
+- PNG Background `background-image: url('path/to/icon.png');`
+- PNG Background Data `background-image: url('data:image/png;...')`
+- WebP Background `background-image: url('path/to/icon.webp');`
 
 ### Results
 I only tested in Chrome for now. So take these results with caution. The results can roughly be summarized as the following:
