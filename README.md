@@ -24,7 +24,7 @@ The results in detail:
 ### Chrome 31.0.1650.63
 
 #### SVG Inline
-[[/img/results/1-paint-performance-svg-inline.png|alt=SVG Inline]]
+![SVG Inline](img/results/1-paint-performance-svg-inline.png)
 
 #### Icon Font (SVG)
 ![Icon Font (SVG)](/img/results/2a-paint-performance-font-svg.png)
