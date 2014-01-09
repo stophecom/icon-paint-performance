@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>Icon Paint Performance</title>
+		<meta name="description" content="Benchmark SVG icons">
+
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/fontcustom.css" />
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="box">
+			<h4>SVG Inline</h4>
+			<p>
+				<small>File size: ~430b</small>
+			</p>
+			<div class="box-content">
+				<svg class="icon svg-inline" viewBox="0 0 32 32">
+					<use xlink:href="#heart-icon"></use>
+				</svg>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>Icon Font</h4>
+			<p>
+				<small>File size: 1-2kb</small>
+			</p>
+			<div class="box-content">
+				<span class="icon icon-font"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>SVG Background</h4>
+			<p>
+				<small>File size: 661b</small>
+			</p>
+			<div class="box-content">
+				<span class="icon svg-bg"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>SVG Background Data</h4>
+			<p>
+				<small>File size: ~934b</small>
+			</p>
+			<div class="box-content">
+				<span class="icon svg-bg-data"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>PNG Background</h4>
+			<p>
+				<small>File size: 358b</small>
+			</p>
+			<div class="box-content">
+				<span class="icon png-bg"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>PNG Background Data</h4>
+			<p>
+				<small>File size: ~701b*</small>
+			</p>
+			<div class="box-content">
+				<span class="icon png-bg-data"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<div class="box">
+			<h4>WebP Background</h4>
+			<p>
+				<small>File size: 278b</small>
+			</p>
+			<div class="box-content">
+				<span class="icon webp-bg"></span>
+			</div>
+			<a class="multiply" data-factor="10000" href="javascript:;">Multiply 10000x</a>
+		</div>
+		<p>*File size could be smaller.</p>
+
+		<!-- SVG SOURCE -->
+		<svg height="0" width="0" style="position:absolute;margin-left: -100%;">
+			<defs>
+				<path id="heart-icon" d="M16.006,31.32l-1.298-1.73c-4.722-6.831-7.39-8.993-9.246-10.886c-1.406-1.424-3.803-3.316-4.974-6.11
+	c-0.937-2.217-0.487-5.353,1.009-7.624C3.228,2.321,6.256,0.68,9.446,0.68c2.253,0,4.506,0.829,6.56,2.415
+	c2.037-1.586,4.29-2.415,6.543-2.415c3.19,0,6.218,1.64,7.948,4.289c1.496,2.271,1.947,5.407,1.027,7.624
+	c-1.171,2.794-3.586,4.686-4.992,6.11c-1.856,1.893-4.524,4.055-9.246,10.886L16.006,31.32z" />
+			</defs>
+		</svg>
+		<!-- SVG SOURCE ends-->
+
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
