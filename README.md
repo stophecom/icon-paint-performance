@@ -1,7 +1,7 @@
 Simple setup to test paint-performance for different ways of including icons.
 
 ### Test Setup
-Tested the paint performance while scrolling through 10000 Icons.
+Tested the paint performance while scrolling through 10`000 Icons.
 
 ![Setup](img/results/test-setup.png)
 
