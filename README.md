@@ -2,8 +2,9 @@ Simple setup to test paint-performance for different ways of including icons.
 
 ## Test case
 Tested the paint performance while scrolling through 10000 Icons.
+![Setup](img/results/test-setup.png)
 
-### Methods
+### Versions
 - SVG Inline
 - Icon Font (SVG, Woff, TTF)
 - SVG Background (background-image)
