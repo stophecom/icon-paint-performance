@@ -15,7 +15,7 @@ Tested the paint performance while scrolling through 10000 Icons.
 ## Results
 I only tested in Chrome for now. So take these results caution. The results can roughly be summarized as the following:
 
-- Inline SVG and Icon Font rendered at 51FPS __~19ms__
+- Inline SVG and Icon Font rendered at __51FPS__ (~19ms)
 - All solutions using _background_ rendered at __30FPS__ (~32ms)
 
 Interestingly the differences between the different file formats are marginal.
@@ -27,25 +27,25 @@ The results in detail:
 ![SVG Inline](img/results/1-paint-performance-svg-inline.png)
 
 #### Icon Font (SVG)
-![Icon Font (SVG)](/img/results/2a-paint-performance-font-svg.png)
+![Icon Font (SVG)](img/results/2a-paint-performance-font-svg.png)
 
 #### Icon Font (WOFF)
-![Icon Font (WOFF)](/img/results/2b-paint-performance-font-woff.png)
+![Icon Font (WOFF)](img/results/2b-paint-performance-font-woff.png)
 
 #### Icon Font (TTF)
-![Icon Font (WOFF)](/img/results/2c-paint-performance-font-ttf.png)
+![Icon Font (WOFF)](img/results/2c-paint-performance-font-ttf.png)
 
 #### SVG Background
-![SVG Background)](/img/results/3-paint-performance-svg-bg.png)
+![SVG Background)](img/results/3-paint-performance-svg-bg.png)
 
 #### SVG Background Data
-![SVG Background Data)](/img/results/4-paint-performance-svg-bg-data.png)
+![SVG Background Data)](img/results/4-paint-performance-svg-bg-data.png)
 
 #### PNG Background
-![PNG Background)](/img/results/5-paint-performance-png-bg.png)
+![PNG Background)](img/results/5-paint-performance-png-bg.png)
 
 #### PNG Background Data
-![PNG Background Data)](/img/results/6-paint-performance-png-bg-data.png)
+![PNG Background Data)](img/results/6-paint-performance-png-bg-data.png)
 
 #### WebP Background
-![WebP Background)](/img/results/7-paint-performance-webp-bg.png)
+![WebP Background)](img/results/7-paint-performance-webp-bg.png)
