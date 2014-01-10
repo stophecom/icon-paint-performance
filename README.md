@@ -16,13 +16,12 @@ Tested the paint performance displaying icons.
 It's really hard to compare paint-performance in general. (Mostly just visual) For now I only tested in Chrome, as it is the only browser which allows you to track this kind of information.
 Still, to get universal results is almost impossible as the performance depends on so many factors. My results can roughly be summarized as the following (take these results with caution):
 
-- Inline SVG and Icon Font rendered fastest
-- PNG, WebP via `background-image` rendered approx. 25% slower
-- SVG via `background-image` rendered rendered approx. 50% slower
-
-The results in detail:
-
 #### Chrome 32.0.1700.72 beta
+
+- Inline SVG and Icon Font rendered fastest
+- PNG, WebP via `background-image` rendered approx. 33% slower
+- SVG via `background-image` rendered rendered approx. 100% slower
+
 Paint Performance with __10`000__ Icons.
 ![Setup](img/results/test-setup.png)
 
@@ -49,6 +48,11 @@ Paint Performance with __10`000__ Icons.
 
 
 #### Chrome Beta 32.0.1700.94 (Android 4.4.2)
+
+- PNG, WebP via `background-image` rendered fastest
+- Inline SVG and Icon Font rendered approx. 50% slower
+- SVG via `background-image` rendered rendered approx. 150% slower
+
 Paint Performance with __1`000__ Icons.
 ![Setup](img/results/test-setup-m.png)
 
@@ -56,7 +60,7 @@ Paint Performance with __1`000__ Icons.
 ![SVG Inline](img/results/chrome32m/1-paint-time.png)
 
 ##### 2a Icon Font (SVG)
-![Icon Font (SVG)](img/results/chrome32m/2-paint-time.png)
+![Icon Font (SVG)](img/results/chrome32m/2a-paint-time.png)
 
 ##### 3a SVG Background
 ![SVG Background)](img/results/chrome32m/3a-paint-time.png)
