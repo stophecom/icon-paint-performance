@@ -1,6 +1,4 @@
-Simple setup to test paint-performance for different ways of including icons.
-
-Paint Performance with 1'000 / 10'000 Icons.
+Test Paint Performance with 1'000 / 10'000 Icons.
 
 ![Setup](img/results/test-setup-m.png)
 
