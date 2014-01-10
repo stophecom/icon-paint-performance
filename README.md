@@ -1,7 +1,7 @@
 Simple setup to test paint-performance for different ways of including icons.
 
-### Test Setup
-Tested the paint performance displaying icons.
+Paint Performance with 1'000 / 10'000 Icons.
+![Setup](img/results/test-setup-m.png)
 
 #### Versions
 - 1 SVG Inline `<svg>` (used [iconmelon](http://iconmelon.com/))
@@ -22,14 +22,13 @@ Still, to get universal results is almost impossible as the performance depends 
 - PNG, WebP via `background-image` rendered approx. 33% slower
 - SVG via `background-image` rendered rendered approx. 100% slower
 
-Paint Performance with __10`000__ Icons.
-![Setup](img/results/test-setup.png)
+__10`000__ Icons
 
 ##### 1 SVG Inline
 ![SVG Inline](img/results/chrome32/1-paint-time.png)
 
 ##### 2a Icon Font (SVG)
-![Icon Font (SVG)](img/results/chrome32/2-paint-time.png)
+![Icon Font (SVG)](img/results/chrome32/2a-paint-time.png)
 
 ##### 3a SVG Background
 ![SVG Background)](img/results/chrome32/3a-paint-time.png)
@@ -53,8 +52,7 @@ Paint Performance with __10`000__ Icons.
 - Inline SVG and Icon Font rendered approx. 50% slower
 - SVG via `background-image` rendered rendered approx. 150% slower
 
-Paint Performance with __1`000__ Icons.
-![Setup](img/results/test-setup-m.png)
+__1`000__ Icons
 
 ##### 1 SVG Inline
 ![SVG Inline](img/results/chrome32m/1-paint-time.png)
