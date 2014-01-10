@@ -19,11 +19,11 @@ Still, to get universal results is almost impossible as the performance depends 
 
 #### Chrome 32.0.1700.72 beta
 
+Display __10'000__ Icons
+
 - Inline SVG and Icon Font rendered fastest
 - PNG, WebP via `background-image` rendered approx. 33% slower
 - SVG via `background-image` rendered rendered approx. 100% slower
-
-__10`000__ Icons
 
 ##### 1 SVG Inline
 ![SVG Inline](img/results/chrome32/1-paint-time.png)
@@ -49,11 +49,11 @@ __10`000__ Icons
 
 #### Chrome Beta 32.0.1700.94 (Android 4.4.2)
 
+Display __1'000__ Icons
+
 - PNG, WebP via `background-image` rendered fastest
 - Inline SVG and Icon Font rendered approx. 50% slower
 - SVG via `background-image` rendered rendered approx. 150% slower
-
-__1`000__ Icons
 
 ##### 1 SVG Inline
 ![SVG Inline](img/results/chrome32m/1-paint-time.png)
